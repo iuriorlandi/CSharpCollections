@@ -16,14 +16,14 @@ namespace CSharpCollections
             aulas[1] = aula2;
             aulas[2] = aula3;
 
-            string[] copiaComTamanhoDois = new string[2];
-
-            Array.Copy(aulas, 0, copiaComTamanhoDois, 0, 2);
-
             foreach (var aula in aulas)
             {
                 Console.WriteLine(aula);
             }
+
+            string[] copiaComTamanhoDois = new string[2];
+
+            Array.Copy(aulas, 0, copiaComTamanhoDois, 0, 2);
 
             foreach (var aula in copiaComTamanhoDois)
             {
